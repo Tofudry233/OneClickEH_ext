@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Settings</title>
+    <style>
+        body { width: 200px; padding: 10px; }
+        label, input { display: block; margin-top: 10px; }
+        input { width: 100%; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <label for="serverAddress">Server Address:</label>
+    <input type="text" id="serverAddress" placeholder="http://localhost" value="http://localhost">
+    
+    <label for="serverPort">Server Port:</label>
+    <input type="text" id="serverPort" placeholder="9999" value="9999">
+
+    <label for="serverPasswd">Server Password:</label>
+    <input type="text" id="serverPasswd" placeholder="0000" value="0000">
+    
+    <button id="saveSettings">Save Settings</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

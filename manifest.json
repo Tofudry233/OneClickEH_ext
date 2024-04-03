@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "OneClickEH Extension",
+    "version": "1.0",
+    "description": "Send the current link to OneClickEH on your server.",
+    "permissions": ["storage", "contextMenus"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
